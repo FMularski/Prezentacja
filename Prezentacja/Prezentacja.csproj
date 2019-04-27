@@ -78,6 +78,18 @@
     <Compile Include="Migrations\201904271043517_SeedGatunki.Designer.cs">
       <DependentUpon>201904271043517_SeedGatunki.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904271254102_AddedFluentApiToKsiazkiTable.cs" />
+    <Compile Include="Migrations\201904271254102_AddedFluentApiToKsiazkiTable.Designer.cs">
+      <DependentUpon>201904271254102_AddedFluentApiToKsiazkiTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904271304443_AddedAutorColumnToKsiazkiTable.cs" />
+    <Compile Include="Migrations\201904271304443_AddedAutorColumnToKsiazkiTable.Designer.cs">
+      <DependentUpon>201904271304443_AddedAutorColumnToKsiazkiTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904271307578_AddedKsiazkiColumnToAutorzyTable.cs" />
+    <Compile Include="Migrations\201904271307578_AddedKsiazkiColumnToAutorzyTable.Designer.cs">
+      <DependentUpon>201904271307578_AddedKsiazkiColumnToAutorzyTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +116,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904271043517_SeedGatunki.resx">
       <DependentUpon>201904271043517_SeedGatunki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271254102_AddedFluentApiToKsiazkiTable.resx">
+      <DependentUpon>201904271254102_AddedFluentApiToKsiazkiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271304443_AddedAutorColumnToKsiazkiTable.resx">
+      <DependentUpon>201904271304443_AddedAutorColumnToKsiazkiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271307578_AddedKsiazkiColumnToAutorzyTable.resx">
+      <DependentUpon>201904271307578_AddedKsiazkiColumnToAutorzyTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

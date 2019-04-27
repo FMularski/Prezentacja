@@ -11,6 +11,8 @@ namespace Prezentacja
         public int Id { get; set; }
         public String Imie { get; set; }
         public String DrugieImie { get; set; }
-        public String Nazwisko { get; set; } 
+        public String Nazwisko { get; set; }
+
+        public List<Ksiazka> Ksiazki { get; set; }
     }
 }
