@@ -16,5 +16,10 @@ namespace Prezentacja
 
         public Autor Autor { get; set; }
         public Gatunek Gatunek { get; set; }
+
+        public override string ToString()
+        {
+            return $"'{Tytul}' {Autor.Imie} {Autor.Nazwisko} \t{Gatunek.Nazwa} {Publikacja.ToShortDateString()} ";
+        }
     }
 }
