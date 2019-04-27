@@ -13,5 +13,6 @@ namespace Prezentacja
 
         public DbSet<Ksiazka> Ksiazki { get; set; }
         public DbSet<Autor> Autorzy { get; set; }
+        public DbSet<Gatunek> Gatunki { get; set; }
     }
 }

@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Autor.cs" />
+    <Compile Include="Gatunek.cs" />
     <Compile Include="Ksiazka.cs" />
     <Compile Include="KsiegarniaContext.cs" />
     <Compile Include="Migrations\201904270900056_InitialModel.cs" />
@@ -60,6 +61,22 @@
     <Compile Include="Migrations\201904270920592_CreateAutorzyTable.cs" />
     <Compile Include="Migrations\201904270920592_CreateAutorzyTable.Designer.cs">
       <DependentUpon>201904270920592_CreateAutorzyTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904270942376_AddedDrugieImieColumnToAutorTable.cs" />
+    <Compile Include="Migrations\201904270942376_AddedDrugieImieColumnToAutorTable.Designer.cs">
+      <DependentUpon>201904270942376_AddedDrugieImieColumnToAutorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904270953205_RenameDataPublikacjiToPublikacjaColumnInKsiazkiTable.cs" />
+    <Compile Include="Migrations\201904270953205_RenameDataPublikacjiToPublikacjaColumnInKsiazkiTable.Designer.cs">
+      <DependentUpon>201904270953205_RenameDataPublikacjiToPublikacjaColumnInKsiazkiTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904271043137_CreateGatunkiTable.cs" />
+    <Compile Include="Migrations\201904271043137_CreateGatunkiTable.Designer.cs">
+      <DependentUpon>201904271043137_CreateGatunkiTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904271043517_SeedGatunki.cs" />
+    <Compile Include="Migrations\201904271043517_SeedGatunki.Designer.cs">
+      <DependentUpon>201904271043517_SeedGatunki.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -75,6 +92,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904270920592_CreateAutorzyTable.resx">
       <DependentUpon>201904270920592_CreateAutorzyTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904270942376_AddedDrugieImieColumnToAutorTable.resx">
+      <DependentUpon>201904270942376_AddedDrugieImieColumnToAutorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904270953205_RenameDataPublikacjiToPublikacjaColumnInKsiazkiTable.resx">
+      <DependentUpon>201904270953205_RenameDataPublikacjiToPublikacjaColumnInKsiazkiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271043137_CreateGatunkiTable.resx">
+      <DependentUpon>201904271043137_CreateGatunkiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271043517_SeedGatunki.resx">
+      <DependentUpon>201904271043517_SeedGatunki.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

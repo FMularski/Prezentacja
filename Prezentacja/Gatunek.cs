@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Prezentacja
 {
-    class Ksiazka
+    class Gatunek
     {
         public int Id { get; set; }
-        public String Tytul { get; set; }
-        public DateTime Publikacja { get; set; }
-
+        public String Nazwa { get; set; }
     }
 }
