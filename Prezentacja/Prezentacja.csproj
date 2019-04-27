@@ -50,11 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autor.cs" />
     <Compile Include="Ksiazka.cs" />
     <Compile Include="KsiegarniaContext.cs" />
     <Compile Include="Migrations\201904270900056_InitialModel.cs" />
     <Compile Include="Migrations\201904270900056_InitialModel.Designer.cs">
       <DependentUpon>201904270900056_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904270920592_CreateAutorzyTable.cs" />
+    <Compile Include="Migrations\201904270920592_CreateAutorzyTable.Designer.cs">
+      <DependentUpon>201904270920592_CreateAutorzyTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +72,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201904270900056_InitialModel.resx">
       <DependentUpon>201904270900056_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904270920592_CreateAutorzyTable.resx">
+      <DependentUpon>201904270920592_CreateAutorzyTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

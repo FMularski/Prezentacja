@@ -12,5 +12,6 @@ namespace Prezentacja
         public KsiegarniaContext() : base("name=Ksiegarnia") { ; }
 
         public DbSet<Ksiazka> Ksiazki { get; set; }
+        public DbSet<Autor> Autorzy { get; set; }
     }
 }
