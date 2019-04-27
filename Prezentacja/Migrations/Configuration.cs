@@ -18,6 +18,12 @@ namespace Prezentacja.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
+            context.Autorzy.AddOrUpdate(a => a.Id,
+                new Autor { Imie = "Jan", DrugieImie = "Adam", Nazwisko = "Kowalski" },
+                new Autor { Imie = "Grzegorz", Nazwisko = "Kot"},
+                new Autor { Imie = "Maciej", DrugieImie = "Andrzej", Nazwisko = "Nowak"}
+                );
         }
     }
 }
