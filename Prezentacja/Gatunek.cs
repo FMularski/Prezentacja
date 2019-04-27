@@ -10,5 +10,6 @@ namespace Prezentacja
     {
         public int Id { get; set; }
         public String Nazwa { get; set; }
+        public List<Ksiazka> Ksiazki { get; set; }
     }
 }

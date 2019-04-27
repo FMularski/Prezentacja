@@ -15,5 +15,6 @@ namespace Prezentacja
         public DateTime Publikacja { get; set; }
 
         public Autor Autor { get; set; }
+        public Gatunek Gatunek { get; set; }
     }
 }

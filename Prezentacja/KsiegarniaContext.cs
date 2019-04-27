@@ -33,6 +33,10 @@ namespace Prezentacja
                 .Property(k => k.Publikacja)
                 .IsRequired();
 
+            modelBuilder.Entity<Ksiazka>()
+                .HasOptional(k => k.Gatunek)
+                .WithMany(g => g.Ksiazki);
+
             modelBuilder.Entity<Autor>()
                  .HasMany(a => a.Ksiazki)
                  .WithRequired(k => k.Autor);

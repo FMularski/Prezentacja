@@ -94,6 +94,14 @@
     <Compile Include="Migrations\201904271335209_FluentApiRelationAutorKsiazki.Designer.cs">
       <DependentUpon>201904271335209_FluentApiRelationAutorKsiazki.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904271400536_AddGatunekColumnToKsiazkiTable.cs" />
+    <Compile Include="Migrations\201904271400536_AddGatunekColumnToKsiazkiTable.Designer.cs">
+      <DependentUpon>201904271400536_AddGatunekColumnToKsiazkiTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904271404065_FluentApiRelationKsiazkiGatunek.cs" />
+    <Compile Include="Migrations\201904271404065_FluentApiRelationKsiazkiGatunek.Designer.cs">
+      <DependentUpon>201904271404065_FluentApiRelationKsiazkiGatunek.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -132,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904271335209_FluentApiRelationAutorKsiazki.resx">
       <DependentUpon>201904271335209_FluentApiRelationAutorKsiazki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271400536_AddGatunekColumnToKsiazkiTable.resx">
+      <DependentUpon>201904271400536_AddGatunekColumnToKsiazkiTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904271404065_FluentApiRelationKsiazkiGatunek.resx">
+      <DependentUpon>201904271404065_FluentApiRelationKsiazkiGatunek.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
