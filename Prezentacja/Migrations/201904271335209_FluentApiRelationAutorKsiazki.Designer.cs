@@ -7,13 +7,13 @@ namespace Prezentacja.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class FluentApiRelacjaAutorKsiazka : IMigrationMetadata
+    public sealed partial class FluentApiRelationAutorKsiazki : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(FluentApiRelacjaAutorKsiazka));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(FluentApiRelationAutorKsiazki));
         
         string IMigrationMetadata.Id
         {
-            get { return "201904271321347_FluentApiRelacjaAutorKsiazka"; }
+            get { return "201904271335209_FluentApiRelationAutorKsiazki"; }
         }
         
         string IMigrationMetadata.Source

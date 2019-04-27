@@ -90,9 +90,9 @@
     <Compile Include="Migrations\201904271307578_AddedKsiazkiColumnToAutorzyTable.Designer.cs">
       <DependentUpon>201904271307578_AddedKsiazkiColumnToAutorzyTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904271321347_FluentApiRelacjaAutorKsiazka.cs" />
-    <Compile Include="Migrations\201904271321347_FluentApiRelacjaAutorKsiazka.Designer.cs">
-      <DependentUpon>201904271321347_FluentApiRelacjaAutorKsiazka.cs</DependentUpon>
+    <Compile Include="Migrations\201904271335209_FluentApiRelationAutorKsiazki.cs" />
+    <Compile Include="Migrations\201904271335209_FluentApiRelationAutorKsiazki.Designer.cs">
+      <DependentUpon>201904271335209_FluentApiRelationAutorKsiazki.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -130,8 +130,8 @@
     <EmbeddedResource Include="Migrations\201904271307578_AddedKsiazkiColumnToAutorzyTable.resx">
       <DependentUpon>201904271307578_AddedKsiazkiColumnToAutorzyTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201904271321347_FluentApiRelacjaAutorKsiazka.resx">
-      <DependentUpon>201904271321347_FluentApiRelacjaAutorKsiazka.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904271335209_FluentApiRelationAutorKsiazki.resx">
+      <DependentUpon>201904271335209_FluentApiRelationAutorKsiazki.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -15,6 +15,5 @@ namespace Prezentacja
         public DateTime Publikacja { get; set; }
 
         public Autor Autor { get; set; }
-        public int AutorId { get; set; }
     }
 }
