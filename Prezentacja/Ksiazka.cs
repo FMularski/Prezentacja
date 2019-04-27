@@ -14,6 +14,7 @@ namespace Prezentacja
         public String Tytul { get; set; }
         public DateTime Publikacja { get; set; }
 
-        Autor Autor { get; set; }
+        public Autor Autor { get; set; }
+        public int AutorId { get; set; }
     }
 }

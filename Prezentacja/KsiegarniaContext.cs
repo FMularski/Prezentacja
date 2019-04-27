@@ -33,6 +33,11 @@ namespace Prezentacja
                 .Property(k => k.Publikacja)
                 .IsRequired();
 
+            modelBuilder.Entity<Autor>()
+                 .HasMany(a => a.Ksiazki)
+                 .WithRequired(k => k.Autor)
+                 .HasForeignKey(k => k.AutorId);
+
             base.OnModelCreating(modelBuilder);
         }
     }
